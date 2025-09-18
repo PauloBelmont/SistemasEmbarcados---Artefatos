@@ -3,11 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Academic](https://img.shields.io/badge/Academic-Repository-blue.svg)](https://github.com/PauloBelmont/Sistemas-Embarcados---Artefatos)
 
-Repositório acadêmico contendo os artefatos e projetos desenvolvidos na disciplina **COMP923 - Sistemas Embarcados**.
+Repositório acadêmico contendo os artefatos e projetos desenvolvidos durante a disciplina **COMP923 - Sistemas Embarcados**.
 
-## 📚 Sobre a Disciplina
+## 📚 Sobre o Repositório
 
-Este repositório centraliza todos os materiais, códigos, projetos e documentações produzidos durante o curso de Sistemas Embarcados. O objetivo é demonstrar o aprendizado e a evolução no desenvolvimento de sistemas embarcados utilizando diferentes tecnologias e plataformas.
+Este repositório centraliza todos os materiais, códigos, projetos e documentações produzidos durante a disciplina de Sistemas Embarcados. O objetivo é demonstrar o aprendizado e a evolução no desenvolvimento de sistemas embarcados utilizando diferentes tecnologias e plataformas.
 
 ## 🛠️ Tecnologias Estudadas
 

@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Paulo Pereira",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -57.6, "left": -158.36, "attrs": {} },
+    {
+      "type": "wokwi-dht22",
+      "id": "dht1",
+      "top": -83.4,
+      "left": 143.1,
+      "rotate": 90,
+      "attrs": {}
+    },
+    { "type": "wokwi-led", "id": "led1", "top": 8.8, "left": -248.2, "attrs": { "color": "red" } }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:EN", "esp:VP", "green", [ "h0" ] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "h0" ] ],
+    [ "dht1:SDA", "esp:22", "green", [ "h0" ] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "h0" ] ],
+    [ "led1:A", "esp:25", "green", [ "h0" ] ],
+    [ "esp:GND.1", "led1:C", "black", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
